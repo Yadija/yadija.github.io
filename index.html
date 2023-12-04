@@ -3,9 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="assets/style.css">
+
   <title>Home</title>
 </head>
 <body>
-  <h1>Hello World!</h1>
+  <!-- Slider main container -->
+  <section class="swiper mainSwiper">
+    <section class="swiper-wrapper">
+      <!-- start home -->
+      <section class="swiper-slide section-slide-1">
+        <section class="section-home">
+          <section class="section-home__image">
+            <img src="./assets/images/icon.png" alt="Logo" class="section-home__image-logo">
+          </section>
+          <section class="section-home__content">
+            <h1 class="section-home__content-title">
+              <span class="section-home__content-title--blue">Welcome to</span> my portfolio website
+            </h1>
+            <p class="section-home__content-description">
+              Through this page, I would like to share my profile and what I have done in programming.
+            </p>
+          </section>
+          </section>
+      </section>
+      <!-- end home -->
+    </section>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/script.js"></script>
 </body>
 </html>

@@ -79,6 +79,7 @@ body {
 }
 
 .section-home__content-title {
+  padding-right: 40px;
   font-size: 80px;
   text-transform: uppercase;
   font-weight: bold;

@@ -253,3 +253,62 @@ body {
 .bi-heart {
   color: hotpink;
 }
+
+/* media queries */
+@media screen and (max-width: 1015px) {
+  /* home */
+  .section-home__content-title {
+    font-size: 60px;
+  }
+
+  .section-home__image {
+    transform: translateX(-150px);
+  }
+
+  .section-home__image-logo {
+    transform: translateX(150px);
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* home */
+  .section-home {
+    padding: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section-home__content {
+    padding-right: 0;
+  }
+
+  .section-home__content-title {
+    font-size: 50px;
+  }
+
+  .section-home__image {
+    transform: translateX(0);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .section-home__image-logo {
+    transform: translateX(0);
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* home */
+  .section-home__content-title {
+    font-size: 40px;
+  }
+
+  .section-home__image-logo {
+    width: 250px;
+    height: 250px;
+  }
+}

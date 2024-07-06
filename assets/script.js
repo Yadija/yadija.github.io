@@ -54,6 +54,12 @@ const projects = [
     name: "Mustache Money Management",
     image: "mustache-money-management",
     link: "https://github.com/yadija/mustache-money-management"
+  },
+  {
+    id: 4,
+    name: "Next Cashier",
+    image: "next-cashier",
+    link: "https://next-cashier.vercel.app"
   }
 ]
 

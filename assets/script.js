@@ -60,6 +60,12 @@ const projects = [
     name: "Next Cashier",
     image: "next-cashier",
     link: "https://next-cashier.vercel.app"
+  },
+  {
+    id: 5,
+    name: "BMKG Watch",
+    image: "bmkg-watch",
+    link: "https://bmkg-watch.netlify.app"
   }
 ]
 

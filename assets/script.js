@@ -66,6 +66,12 @@ const projects = [
     name: "BMKG Watch",
     image: "bmkg-watch",
     link: "https://bmkg-watch.netlify.app"
+  },
+  {
+    id: 6,
+    name: "Indonesia Map",
+    image: "indonesia-map",
+    link: "https://indonesia-map.vercel.app"
   }
 ]
 
